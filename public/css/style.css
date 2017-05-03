@@ -1,0 +1,229 @@
+* {
+	box-sizing: border-box;
+}
+
+.nav-options:hover {
+	cursor: pointer;
+	background-color: #851cc8 !important;
+	color: #fff !important;
+}
+
+#nav-contact {
+	background-color: #851cc8;
+	border-radius: 40px;
+	color: #fff;
+	border: 3px solid #851cc8;
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+#nav-contact:hover {
+	color: #851cc8;
+	background-color: #fff;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+.main-pic {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-image: url('../images/purple-drone.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-top: 5em;
+}
+
+.section-one {
+	flex: 1;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.call-to-action {
+	padding: 10em 0px;
+}
+
+.section-one h1 {
+	font-size: 6.5em;
+	color: #851cc8;
+	font-family: Roboto, sans-serif;
+}
+
+.section-one h4 {
+	font-size: 1.5em;
+	font-family: Roboto, sans-serif;
+	letter-spacing: 1px;
+}
+
+.section-one button {
+	padding: 1em;
+	border-radius: 30px;
+	border-style: hidden;
+	background-color: #851cc8;
+	color: #fff;
+	font-size: 1.3em;
+	margin-top: 1em;
+}
+
+.section-one button:hover {
+	background-color: orange;
+}
+
+.purple-background {
+	background-color: #851cc8;
+	color: #fff;
+	text-align: center;
+}
+
+.section-two h1 {
+	font-size: 5em;
+	font-family: Roboto, sans-serif;
+}
+
+.section-two h4 {
+	margin-top: 0px;
+	font-family: Roboto, sans-serif;
+}
+
+.section-two-info {
+	margin-top: 4em !important;
+}
+
+.section-three h1 {
+	color: #851cc8;
+	font-weight: 300;
+	font-size: 2.5em;
+}
+
+.section-three h2 {
+	font-size: 1.5em;
+}
+
+.section-three h3 {
+	font-size: 1em;
+	margin-top: 0px;
+}
+
+.section-three img {
+	border: 5px solid #851cc8 !important;
+	border-radius: 50%;
+}
+
+#section-three-orange-divider {
+	background-color: orange;
+	width: 10%;
+	margin-top: 5em;
+}
+
+#section-three-background {
+	background-image: url('../images/grey-geometric.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#section-three-header {
+	color: #851cc8;
+}
+
+.orange-divider {
+	background-color: orange;
+	width: 10%;
+}
+
+.picture-info {
+	padding: 5em !important;
+}
+
+.call-to-action {
+	background-image: url('../images/grey-wall.png');
+	text-align: center;
+	margin-top: 10em;
+}
+
+.call-to-action h1 {
+	font-size: 5em;
+	font-family: Roboto, sans-serif;
+}
+
+#explore {
+	padding: 1em;
+	background-color: #851cc8;
+	margin-right: 2em;
+	font-size: 1.4em;
+	border: 3px solid #851cc8;
+}
+
+#contact {
+	padding: 1em;
+	font-size: 1.4em;
+	border: 3px solid #851cc8;
+	background-color: transparent !important;
+	margin: 0px;
+}
+
+.footer ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.footer li {
+	display: inline;
+	margin-right: 1em;
+}
+
+.footer p {
+	margin-top: 14px !important;
+}
+
+.mobile-nav {
+	padding-top: 0px !important;
+}
+
+#mobile-menu {
+	font-size: 4em;
+	margin-right: .3em;
+	margin-top: .4em;
+	color: #851cc8;
+}
+
+.mobile-menu {
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 767px) {
+	.main-pic {
+		margin-top: 0px;
+	}
+
+	.section-one h1,
+	.section-one h4,
+	#centering-button {
+		text-align: center;
+	}
+
+	.section-three img {
+		width: 250px;
+		text-align: center;
+	}
+
+	#explore {
+		margin-right: 0px;
+		margin-bottom: 1em;
+	}
+
+	.footer ul {
+		text-align: center;
+	}
+}

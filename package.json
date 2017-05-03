@@ -1,0 +1,23 @@
+{
+  "name": "nessit-coding-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kateah1/nessit-coding-exercise.git"
+  },
+  "author": "kate h",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kateah1/nessit-coding-exercise/issues"
+  },
+  "homepage": "https://github.com/kateah1/nessit-coding-exercise#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
